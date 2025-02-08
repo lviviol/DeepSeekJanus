@@ -12,9 +12,9 @@ Preparation of programming environment is neccessary before running the code.
 3. Janus will be downloaded when we run the code for the first time.
 
 **C. Problems Encountered**  
-1. Error encountered was <ModuleNotFoundError: No module named 'janus.models'>
-2. The root cause was due to the code file MyJanusPro7B.py is not in the same path as Janus.
-3. We moved MyJanusPro7B.py into Janus folder, and 'janus.models' was able to load.
+1. Error <ModuleNotFoundError: No module named 'janus.models'> was encountered.
+2. The root cause was identified to as code file MyJanusPro7B.py being in a different path as Janus.
+3. By moving MyJanusPro7B.py into Janus folder, we resolved the path issue and 'janus.models' was able to load.
 
 **D. Deliverables**  
 1. We are able to reproduce original image of the brown dog from Daniel Corin's code.
