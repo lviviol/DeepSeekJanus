@@ -21,9 +21,24 @@ Preparation of programming environment is neccessary before running the code.
    ![alt text](https://github.com/lviviol/DeepSeekJanus/blob/9068ff0db2ddd61a7d5311d17ce9da37e993cd92/img_0.jpg?raw=true)
 
 2. We modifed author's prompt with our own as follows.  
-2 person are walking on the beach towards the ocean.
-The ocean has 2 shades of color, with baby blue in front and deep blue at the back.
-In the mids of the ocean, 3 dolphins are jumping out of the ocean.
-The 3 dolphins formed a circle while they are in the air.
-The sky is beautiful blue with some clouds.
+2 person are walking on the beach towards the ocean. The ocean has 2 shades of color, with baby blue in front and deep blue at the back. In the mids of the ocean, 3 dolphins are jumping out of the ocean. The 3 dolphins formed a circle while they are in the air. The sky is beautiful blue with some clouds.  (Processing time ~ 5min)
+
+![alt text](https://github.com/lviviol/DeepSeekJanus/blob/c61d733bd3ff87df1282c46abe5948b7be28788a/img_1.jpg?raw=true)
+
+**E. Improvements**  
+With GitHub co-pilot, we made 2 improvements to the author's code
+- Original = MyJanusPro7B.py
+- Improve = MyJanusPro7B_ver1.py
+
+Improvment 1  
+- Original = Old image is over-written by new image.
+- Improvement =  Save generated images with unique consecutive file name.
+
+Improvement 2
+- Original = Edit image prompt in python code.
+- Improvement = Use input() which allows User to input image creation prompt in Terminal
+
+**F. Observations & Limitations**  
+1. Longer prompts might have resulted in poorer resolution.
+2. This will be investigated and informed in the next update. 
 
